@@ -28,8 +28,8 @@ public class ProductManager {
             System.out.printf("%d - %s, Price: %d, Quantity: %d,%n",
                     i+1,
                     products.get(i).getTitle(),
-                    products.get(i).getInStoreQty(),
-                    products.get(i).getPrice()
+                    products.get(i).getPrice(),
+                    products.get(i).getInStoreQty()
             );
         }
     }
